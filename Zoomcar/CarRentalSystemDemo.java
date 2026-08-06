@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class CarRentalSystemDemo {
-    public static void run() {
+    public static void main() {
         CarRentalService carRentalService = CarRentalService.getInstance();
 
         // Add vehicles to the rental system
