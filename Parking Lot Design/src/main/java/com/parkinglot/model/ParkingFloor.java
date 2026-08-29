@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.parkinglot.model.Pricing.FixedPricingStrategy;
-import com.parkinglot.model.Pricing.HourlyPricingStrategy;
 import com.parkinglot.model.Vehicles.VehicleType;
 
 public class ParkingFloor {

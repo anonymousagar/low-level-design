@@ -11,10 +11,6 @@ public class HasMoneyState extends VendingMachineState {
          System.out.println("Currently Vending machine is in HasMoneyState");
     }
 
-    public HasMoneyState(VendingMachine vendingMachine) {
-        super(vendingMachine);
-    }
-
     @Override
     public void clickOnStartProductSelectionButton(VendingMachine machine) throws Exception {
         machine.setVendingMachineState(new SelectionState());
